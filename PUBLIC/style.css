@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#input{
+    background-color: rgb(65, 163, 243);
+    color: white;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    /* box-shadow: 1px 1px 17px 1px aqua; */
+}
+.main{
+    border: 1px solid black;
+    width: 450px;
+    margin: 0 auto;
+    height: 500px;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: rgb(52, 9, 94);
+    border-radius: 6px;
+    border: 2px solid blueviolet;
+}
+#add{
+    font-size: 15px;
+    width: 60px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(56, 189, 16);
+}
+#del-all{
+    font-size: 15px;
+    width: 90px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(226, 167, 4);
+}
+.li-style{
+    /* border: 1px solid black; */
+    list-style: none;
+    list-style-type: none;
+    height: 40px;
+    /* width: 300px; */
+    background-color: tomato;
+    border-radius: 6px;
+    margin-right: 80px;
+    margin-bottom: 22px;
+}
+.del{
+    /* margin-left: 140px; */
+    margin-right: 20px;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(226, 167, 4);
+}
+.edit{
+    width: 60px;
+    height: 40px;
+    background-color: rgb(16, 121, 121);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.text{
+    color: blue;
+}
